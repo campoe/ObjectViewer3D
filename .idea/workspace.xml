@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="57174734-8dbf-45b1-92c5-c2df7506d00a" name="Default" comment="">
-      <change afterPath="$APPLICATION_CONFIG_DIR$/consoles/db/2ce80c52-a19b-497c-92b4-8481cc109ac7/console.sql" afterDir="false" />
-      <change afterPath="$APPLICATION_CONFIG_DIR$/consoles/db/cd0f5daf-d2df-4cbf-ad34-c39499da27f1/console.sql" afterDir="false" />
+      <change afterPath="$USER_HOME$/.IntelliJIdea2018.1/config/consoles/db/2ce80c52-a19b-497c-92b4-8481cc109ac7/console.sql" afterDir="false" />
+      <change afterPath="$USER_HOME$/.IntelliJIdea2018.1/config/consoles/db/cd0f5daf-d2df-4cbf-ad34-c39499da27f1/console.sql" afterDir="false" />
       <change afterPath="$USER_HOME$/Documents/Utwente/Module 6/AI/Snake/.gitignore" afterDir="false" />
       <change afterPath="$USER_HOME$/Documents/Utwente/Module 6/AI/Snake/README.txt" afterDir="false" />
       <change afterPath="$USER_HOME$/Documents/Utwente/Module 6/AI/Snake/agent.py" afterDir="false" />
@@ -437,6 +437,8 @@
       <change afterPath="$PROJECT_DIR$/../JPlay/src/main/java/com/arman/jfx/util/KeepAwakeThread.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../JPlay/src/main/java/com/arman/jfx/util/TimeFormatter.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../JPlay/src/test/java/com/arman/jfx/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Jentl/src/main/java/math/Polygon3f.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Jentl/src/main/java/math/Tuple.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../MarkAsPlainText/src/com/arman/plugins/marktext/UnMarkPlainText.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/com/arman/geom/Matrix4D.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/com/arman/geom/Quaternion.java" afterDir="false" />
@@ -514,6 +516,12 @@
       <change afterPath="$USER_HOME$/PycharmProjects/GeneticPool/Table.py" afterDir="false" />
       <change afterPath="$USER_HOME$/PycharmProjects/GeneticPool/Window.py" afterDir="false" />
       <change beforePath="$USER_HOME$/Downloads/Download-v3.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/arman/research/SolidPolygonRendererTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/arman/research/SolidPolygonRendererTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/arman/research/core/Core.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/arman/research/core/Core.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/arman/research/core/Core3D.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/arman/research/core/Core3D.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/arman/research/loader/ObjectLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/arman/research/loader/ObjectLoader.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -530,54 +538,46 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/arman/research/SolidPolygonRendererTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="31" column="25" lean-forward="true" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
+              <folding>
+                <element signature="e#1177#1178#0" expanded="true" />
+                <element signature="e#1209#1210#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/arman/research/loader/ObjectLoader.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="299">
+              <caret line="130" column="51" lean-forward="true" selection-start-line="130" selection-start-column="51" selection-end-line="130" selection-end-column="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/arman/research/core/Core3D.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="12" column="40" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/arman/main/View.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/arman/research/core/Core.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="31" column="31" lean-forward="true" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
+            <state relative-caret-position="146">
+              <caret line="94" column="17" selection-start-line="94" selection-start-column="17" selection-end-line="94" selection-end-column="17" />
               <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/arman/renderers/ZBufferRenderer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="38" selection-start-line="38" selection-end-line="38" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/arman/renderers/ScanLineRenderer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1343">
-              <caret line="92" selection-start-line="92" selection-end-line="92" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/arman/main/MeshLoader.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="29" column="41" selection-start-line="29" selection-start-column="41" selection-end-line="29" selection-end-column="41" />
-              <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#2796#3023#0" expanded="true" />
+                <element signature="e#3022#3023#0" expanded="true" />
+                <element signature="e#3158#3159#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -586,8 +586,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/arman/renderers/GlobalEdgeTable.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="656">
-              <caret line="59" selection-start-line="59" selection-end-line="59" />
+            <state relative-caret-position="119">
+              <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#410#411#0" expanded="true" />
@@ -595,6 +595,33 @@
                 <element signature="e#1666#1667#0" expanded="true" />
                 <element signature="e#1711#1712#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/arman/renderers/ScanLine.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="731">
+              <caret line="51" column="21" selection-start-line="51" selection-start-column="21" selection-end-line="51" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/arman/Tuple.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/arman/geom/Polygon3D.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="527">
+              <caret line="40" selection-start-line="40" selection-end-line="40" />
             </state>
           </provider>
         </entry>
@@ -637,10 +664,11 @@
       <find>alpha</find>
       <find>50</find>
       <find>path</find>
+      <find>Press</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$USER_HOME$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -650,8 +678,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/arman/pipelines/RasterizationPipeline.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/arman/pipelines/GeometryPipeline.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/arman/pipelines/ClippingPipeline.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/arman/geom/Verte.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/arman/geom/Vertex.java" />
@@ -678,7 +704,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/arman/geom/Triangle3D.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/arman/renderers/ScanLine.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/arman/renderers/AET.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/arman/research/SolidPolygonRendererTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/arman/renderers/ZBuffer.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/arman/renderers/BoundingBox.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/arman/renderers/ActiveEdgeList.java" />
@@ -696,11 +721,14 @@
         <option value="$PROJECT_DIR$/src/main/java/com/arman/renderers/BasicRenderer.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/arman/models/Mesh.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/arman/renderers/ZBufferRenderer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/arman/research/loader/ObjectLoader.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/arman/main/MeshLoader.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/arman/renderers/GlobalEdgeTable.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/arman/renderers/ScanLineRenderer.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/arman/main/View.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/arman/research/loader/ObjectLoader.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/arman/research/SolidPolygonRendererTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/arman/research/core/Core3D.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/arman/research/core/Core.java" />
       </list>
     </option>
   </component>
@@ -719,9 +747,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="950" />
-    <option name="width" value="980" />
-    <option name="height" value="1090" />
+    <option name="x" value="195" />
+    <option name="y" value="15" />
+    <option name="width" value="965" />
+    <option name="height" value="1085" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -745,6 +774,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -792,6 +822,16 @@
               <item name="ObjectViewer3D" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="arman" type="462c0819:PsiDirectoryNode" />
+              <item name="research" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ObjectViewer3D" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ObjectViewer3D" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -810,7 +850,6 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -849,7 +888,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.View">
+  <component name="RunManager" selected="Application.SolidPolygonRendererTest">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -940,9 +979,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SolidPolygonRendererTest" />
         <item itemvalue="Application.View" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.SolidPolygonRendererTest" />
         <item itemvalue="Application.Polygon3f" />
       </list>
     </recent_temporary>
@@ -987,7 +1026,7 @@
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23087248" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23758389" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -996,7 +1035,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32749325" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.41689008" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.41689008" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1010,7 +1049,6 @@
       <window_info anchor="bottom" id="ANTLR Preview" order="13" />
       <window_info anchor="bottom" id="Docker" order="14" />
       <window_info anchor="bottom" id="Database Changes" order="15" show_stripe_button="false" />
-      <window_info anchor="right" id="Maven" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -1022,6 +1060,7 @@
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Theme Preview" order="9" />
       <window_info anchor="right" id="SciView" order="10" />
+      <window_info anchor="right" id="Maven" order="11" />
     </layout>
     <layout-to-restore>
       <window_info content_ui="combo" id="Project" order="0" weight="0.34656653" />
@@ -1067,22 +1106,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/arman/renderers/Image.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/arman/research/render/Bitmap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Lightning/src/main/java/engine/collision/BoundingBox.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="22" selection-start-column="22" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Lightning/src/main/java/engine/Graphics2D.java" />
     <entry file="jar://C:/Development/Java/jdk1.8.0_111/src.zip!/java/awt/Color.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="568">
@@ -1165,13 +1188,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/arman/Tuple.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Development/Java/jdk1.8.0_111/src.zip!/java/util/List.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="130">
@@ -1204,13 +1220,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="547">
           <caret line="169" column="25" selection-start-line="169" selection-start-column="25" selection-end-line="169" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/arman/renderers/ScanLine.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-435">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1276,20 +1285,6 @@
         <state relative-caret-position="-4851" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/arman/research/loader/ObjectLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="173" column="41" selection-start-line="173" selection-start-column="37" selection-end-line="173" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/arman/research/SolidPolygonRendererTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="22" column="28" lean-forward="true" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Development/Java/jdk1.8.0_111/src.zip!/java/lang/String.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="855">
@@ -1311,23 +1306,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/arman/geom/Polygon3D.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-263">
-          <caret line="170" column="19" selection-start-line="170" selection-start-column="19" selection-end-line="170" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/cube.obj">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/arman/main/View.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" column="31" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/arman/renderers/ZBufferRenderer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="38" selection-start-line="38" selection-end-line="38" />
+        <state relative-caret-position="408">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1336,8 +1334,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/arman/renderers/ScanLineRenderer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1343">
-          <caret line="92" selection-start-line="92" selection-end-line="92" />
+        <state>
+          <caret column="28" selection-start-column="28" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1351,6 +1349,41 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/arman/renderers/GlobalEdgeTable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#410#411#0" expanded="true" />
+            <element signature="e#448#449#0" expanded="true" />
+            <element signature="e#1666#1667#0" expanded="true" />
+            <element signature="e#1711#1712#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/arman/renderers/ScanLine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="51" column="21" selection-start-line="51" selection-start-column="21" selection-end-line="51" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/arman/Tuple.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/arman/geom/Polygon3D.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
         </state>
       </provider>
     </entry>
@@ -1370,26 +1403,57 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/arman/renderers/GlobalEdgeTable.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/arman/research/core/Core3D.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="656">
-          <caret line="59" selection-start-line="59" selection-end-line="59" />
+        <state relative-caret-position="51">
+          <caret line="12" column="40" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Development/Java/jdk1.8.0_111/src.zip!/java/awt/FileDialog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="385">
+          <caret line="473" column="16" selection-start-line="473" selection-start-column="16" selection-end-line="473" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Development/Java/jdk1.8.0_111/src.zip!/javax/swing/JFileChooser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="653" column="36" selection-start-line="653" selection-start-column="36" selection-end-line="653" selection-end-column="36" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#410#411#0" expanded="true" />
-            <element signature="e#448#449#0" expanded="true" />
-            <element signature="e#1666#1667#0" expanded="true" />
-            <element signature="e#1711#1712#0" expanded="true" />
+            <element signature="e#9257#9258#0" expanded="true" />
+            <element signature="e#9313#9314#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/arman/main/View.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/arman/research/SolidPolygonRendererTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" column="31" lean-forward="true" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
+        <state relative-caret-position="289">
+          <caret line="31" column="25" lean-forward="true" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#1177#1178#0" expanded="true" />
+            <element signature="e#1209#1210#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/arman/research/loader/ObjectLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="130" column="51" lean-forward="true" selection-start-line="130" selection-start-column="51" selection-end-line="130" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/arman/research/core/Core.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="94" column="17" selection-start-line="94" selection-start-column="17" selection-end-line="94" selection-end-column="17" />
+          <folding>
+            <element signature="e#2796#3023#0" expanded="true" />
+            <element signature="e#3022#3023#0" expanded="true" />
+            <element signature="e#3158#3159#0" expanded="true" />
           </folding>
         </state>
       </provider>

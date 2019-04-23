@@ -2,6 +2,8 @@ package com.arman.research.core;
 
 import javax.swing.*;
 import java.awt.*;
+import java.awt.event.KeyAdapter;
+import java.awt.event.KeyEvent;
 
 public abstract class Core {
 
@@ -85,6 +87,14 @@ public abstract class Core {
         window.setFont(new Font("Dialog", Font.PLAIN, fontSize));
         window.setBackground(Color.blue);
         window.setForeground(Color.white);
+        window.addKeyListener(new KeyAdapter() {
+            @Override
+            public void keyPressed(KeyEvent e) {
+                if (e.getKeyCode() == KeyEvent.VK_ESCAPE) {
+                    System.exit(1);
+                }
+            }
+        });
         running = true;
     }
 

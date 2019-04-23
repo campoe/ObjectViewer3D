@@ -97,7 +97,7 @@ public abstract class Core3D extends Core {
     public void drawText(Graphics2D g) {
         g.setColor(Color.WHITE);
         if (drawInstructions) {
-            g.drawString("Use the mouse/arrow keys to move. " + "Press Esc to exit.", 5, getFontSize());
+            g.drawString("Press Esc to exit.", 5, getFontSize());
         }
         if (drawFrameRate) {
             calcFrameRate();

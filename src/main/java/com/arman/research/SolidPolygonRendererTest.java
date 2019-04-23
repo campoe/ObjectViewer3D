@@ -8,19 +8,35 @@ import com.arman.research.loader.ObjectLoader;
 import com.arman.research.render.SolidPolygonRenderer;
 import com.arman.research.render.View;
 
+import javax.swing.*;
+import javax.swing.filechooser.FileNameExtensionFilter;
+import java.io.File;
 import java.io.IOException;
 
 public class SolidPolygonRendererTest extends Core3D {
 
+    private File file;
+
     public static void main(String[] args) {
-        new SolidPolygonRendererTest().run();
+        SolidPolygonRendererTest test = new SolidPolygonRendererTest();
+        JFileChooser fileChooser = new JFileChooser();
+        fileChooser.setFileFilter(new FileNameExtensionFilter("Object file", "obj"));
+        int val = fileChooser.showOpenDialog(null);
+        if (val == JFileChooser.APPROVE_OPTION) {
+            test.setFile(fileChooser.getSelectedFile());
+            test.run();
+        }
+    }
+
+    private void setFile(File file) {
+        this.file = file;
     }
 
     public void createPolygons() {
         PolygonGroup pg = null;
         ObjectLoader loader = new ObjectLoader();
         try {
-            pg = loader.loadObject("./monkey.obj");
+            pg = loader.loadObject(file);
         } catch (IOException e) {
             e.printStackTrace();
         }

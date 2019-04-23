@@ -4,9 +4,9 @@ import com.arman.research.geom.polygons.PolygonGroup;
 import com.arman.research.geom.polygons.TexturedPolygon3f;
 import com.arman.research.geom.vectors.Vector3f;
 import com.arman.research.render.lights.PointLight3f;
-import com.arman.research.render.textures.Texture;
 import com.arman.research.render.textures.ShadedSurface;
 import com.arman.research.render.textures.ShadedTexture;
+import com.arman.research.render.textures.Texture;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -15,28 +15,6 @@ import java.io.IOException;
 import java.util.*;
 
 public class ObjectLoader {
-
-    public static class Material {
-
-        public File file;
-        public ShadedTexture texture;
-
-        public Material() {
-
-        }
-
-        public Material(File file, ShadedTexture texture) {
-            this.file = file;
-            this.texture = texture;
-        }
-
-    }
-
-    public interface LineParser {
-
-        void parseLine(String line) throws IOException, NumberFormatException, NoSuchElementException;
-
-    }
 
     private File path;
     private List<Vector3f> vertices;
@@ -47,7 +25,6 @@ public class ObjectLoader {
     private Map<String, LineParser> parsers;
     private PolygonGroup object;
     private PolygonGroup currentGroup;
-
     public ObjectLoader() {
         materials = new HashMap<>();
         vertices = new ArrayList<>();
@@ -63,15 +40,19 @@ public class ObjectLoader {
         this.ambientLightIntensity = ambientLightIntensity;
     }
 
-    public PolygonGroup loadObject(String fileName) throws IOException {
-        File file = new File(getClass().getClassLoader().getResource(fileName).toExternalForm().substring(6));
+    public PolygonGroup loadObject(File file) throws IOException {
         object = new PolygonGroup();
         object.setFileName(file.getName());
         path = file.getParentFile();
         vertices.clear();
         currentGroup = object;
-        parseFile(fileName);
+        parseFile(file);
         return object;
+    }
+
+    public PolygonGroup loadObject(String fileName) throws IOException {
+        File file = new File(getClass().getClassLoader().getResource(fileName).toExternalForm().substring(6));
+        return this.loadObject(file);
     }
 
     public Vector3f getVector(int i) {
@@ -81,10 +62,10 @@ public class ObjectLoader {
         return vertices.get(i - 1);
     }
 
-    public void parseFile(String fileName) throws IOException {
-        File file = new File(getClass().getClassLoader().getResource(fileName).getPath());
+    public void parseFile(File file) throws IOException {
         BufferedReader br = new BufferedReader(new FileReader(file));
         LineParser parser = null;
+        String fileName = file.getName();
         int ei = fileName.lastIndexOf('.');
         if (ei != -1) {
             String e = fileName.substring(ei + 1);
@@ -108,6 +89,33 @@ public class ObjectLoader {
                 }
             }
         }
+    }
+
+    public void parseFile(String fileName) throws IOException {
+        File file = new File(getClass().getClassLoader().getResource(fileName).getPath());
+        this.parseFile(file);
+    }
+
+    public interface LineParser {
+
+        void parseLine(String line) throws IOException, NumberFormatException, NoSuchElementException;
+
+    }
+
+    public static class Material {
+
+        public File file;
+        public ShadedTexture texture;
+
+        public Material() {
+
+        }
+
+        public Material(File file, ShadedTexture texture) {
+            this.file = file;
+            this.texture = texture;
+        }
+
     }
 
     public class ObjLineParser implements LineParser {
